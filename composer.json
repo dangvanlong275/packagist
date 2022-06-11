@@ -1,0 +1,24 @@
+{
+    "name": "stdio-template/file-helper",
+    "type": "lib",
+    "authors": [
+        {
+            "name": "dangvanlong275",
+            "email": "dangvanlong27@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "stdio-template\\file-helper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StdioTemplate\\FileHelper\\StdioServiceProvider"
+            ]
+        }
+    }
+}
