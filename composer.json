@@ -1,17 +1,19 @@
 {
-    "name": "stdio-template/file-helper",
-    "type": "lib",
+    "name": "stdiod/file-helper",
+    "description": "Support upload, delete, download ffmpeg",
+    "type": "library",
+    "keywords": ["stdio", "file-helper"],
+    "license": "MIT",
     "authors": [
         {
             "name": "dangvanlong275",
             "email": "dangvanlong27@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
-            "stdio-template\\file-helper\\": "src/"
+            "StdioTemplate\\FileHelper\\": "src"
         }
     },
     "extra": {
@@ -20,5 +22,6 @@
                 "StdioTemplate\\FileHelper\\StdioServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
