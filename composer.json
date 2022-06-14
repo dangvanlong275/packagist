@@ -1,6 +1,8 @@
 {
     "name": "stdio-template/file-helper",
-    "type": "lib",
+    "description": "Support upload, delete, download ffmpeg",
+    "type": "library",
+    "keywords": ["stdio", "file-helper"],
     "authors": [
         {
             "name": "dangvanlong275",
@@ -8,10 +10,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php-ffmpeg/php-ffmpeg": ">=0.19.0",
+        "pbmedia/laravel-ffmpeg": ">=7.5.12"
+    },
     "autoload": {
         "psr-4": {
-            "stdio-template\\file-helper\\": "src/"
+            "StdioTemplate\\FileHelper\\": "src"
         }
     },
     "extra": {
